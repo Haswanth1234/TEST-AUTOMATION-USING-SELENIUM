@@ -25,11 +25,7 @@ Example:
 
 from selenium.webdriver.common.by import By
 
-**Find an element by its ID and click it**
-
-from selenium.webdriver.common.by import By
-
-# Find an element by its ID and click it
+#Find an element by its ID and click it
 
 button = driver.find_element(By.ID, "submit-button")
 
