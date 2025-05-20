@@ -18,6 +18,7 @@
 In this project, Selenium is used for automating web interactions. One of the core functions used is:
 
 driver.find_element(...)
+
 This method is essential for locating HTML elements on a webpage, enabling automation tasks such as clicking buttons, filling out forms, or extracting data. It works by using locators like ID, name, class, CSS selector, or XPath to target specific elements.
 
 Example:
@@ -25,6 +26,10 @@ Example:
 from selenium.webdriver.common.by import By
 
 **Find an element by its ID and click it**
+
+from selenium.webdriver.common.by import By
+
+# Find an element by its ID and click it
 
 button = driver.find_element(By.ID, "submit-button")
 button.click()
