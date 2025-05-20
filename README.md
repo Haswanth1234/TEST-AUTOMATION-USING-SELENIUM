@@ -32,6 +32,7 @@ from selenium.webdriver.common.by import By
 # Find an element by its ID and click it
 
 button = driver.find_element(By.ID, "submit-button")
+
 button.click()
 
 This allows the script to simulate real user interactions and perform tasks automatically on websites.
